@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coupon Discount</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+
+
+    <section class="bg-green-300 w-3/4 mx-auto mt-5 rounded-md">
+        <h2>(Tailwind) একটা ডিসকাউন্ট ক্যালকুলেটর এর প্রাকটিস দিয়েছি। সেটা করো। যেখানে একটা প্রাইস লেখা থাকবে এবং একটা
+            বাটন আছে। সেটাতে ক্লিক করলে প্রাইস ৩০% কমে যাবে। এইটার আরেকটু এডভান্সড ভার্সন হবে। তুমি যেদিন Apply বাটনে
+            ক্লিক
+            করবে তখন যদি পাশের টেক্সট বক্স এ DOM লেখা থাকে তাহলে ডিসকাউন্ট কাজ করবে। প্রাইস ৩০% কমবে। আর যদি DOM না লিখে
+            অন্য
+            কিছু লিখে। যেমন ধরো dom বা drum বা অন্য কিছু। তাহলে ডিসকাউন্ট কাজ হবে না।</h2>
+
+        <div class="p-10 text-center">
+            <h1 class="text-6xl">Discount</h1>
+            <h2 class="text-3xl font-semibold py-3">Price is $<span id="output-value" class="text-red-600">500</span>
+            </h2>
+            <input id="inputCode" class="w-3/4 p-2 rounded-md" type="text" name=""
+                placeholder="Please type 'DOM' to get 30% discount">
+            <button id="discount-btn" class="bg-blue-600 text-white font-semibold p-2 rounded-md">Discount</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
